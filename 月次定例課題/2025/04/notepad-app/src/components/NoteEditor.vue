@@ -40,7 +40,7 @@ export default {
   props: {
     note: {
       type: Object,
-      default: () => ({ title: '', content: '', dueDate: null })
+      default: () => ({ title: '', content: '', dueDate: null }) // idを含めない
     }
   },
   data() {
