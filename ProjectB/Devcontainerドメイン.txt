@@ -1,0 +1,20 @@
+■ Add Dev Container Configuration Files 実行時に確認されたドメイン
+
+20	1.874281	192.168.0.6	185.199.109.153	TLSv1.3	307	Client Hello (SNI=containers.dev)
+1222	13.965738	192.168.0.6	20.27.177.117	TLSv1.3	300	Client Hello (SNI=ghcr.io)
+1312	14.920352	240b:10:b262:6400:fd84:2aa6:3a53:7e7f	2606:50c0:8002::154	TLSv1.3	591	Client Hello (SNI=pkg-containers.githubusercontent.com)
+1357	15.579961	192.168.0.6	185.199.111.133	TLSv1.3	571	Client Hello (SNI=raw.githubusercontent.com)
+1453	15.887302	192.168.0.6	20.27.177.113	TLSv1.3	571	Client Hello (SNI=github.com)
+
+
+■ Reopen in Container 実行時に確認されたドメイン
+
+1814	96.027290	192.168.0.6	185.199.109.153	TLSv1.3	571	Client Hello (SNI=containers.dev)
+1980	100.628162	240b:10:b262:6400:fd84:2aa6:3a53:7e7f	2603:1061:f:101::10	TLSv1.3	330	Client Hello (SNI=mcr.microsoft.com)
+207	11.549222	192.168.0.6	13.107.5.93	TLSv1.3	571	Client Hello (SNI=default.exp-tas.com)
+336	16.835508	192.168.0.6	13.107.246.47	TLSv1.3	431	Client Hello (SNI=main.vscode-cdn.net)
+840	20.788097	192.168.0.6	13.107.246.47	TLSv1.3	471	Change Cipher Spec, Client Hello (SNI=www.vscode-unpkg.net)
+863	20.855612	192.168.0.6	150.171.74.16	TLSv1.3	438	Client Hello (SNI=github.gallery.vsassets.io)
+933	21.682933	192.168.0.6	150.171.74.16	TLSv1.3	440	Client Hello (SNI=marketplace.visualstudio.com)
+1131	23.145095	192.168.0.6	20.27.177.116	TLSv1.3	453	Client Hello (SNI=api.github.com)
+1546	25.221636	192.168.0.6	13.107.246.47	TLSv1.3	488	Change Cipher Spec, Client Hello (SNI=main.vscode-cdn.net)
