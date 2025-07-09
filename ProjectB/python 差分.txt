@@ -1,0 +1,166 @@
+# DockerHub Python 3.13.2
+
+[
+    {
+        "Id": "sha256:290dd5ea5ef31d9e2b4f5e44c76306101edfb096d2379e99cd751774d0739049",
+        "RepoTags": [
+            "python:3.13.2"
+        ],
+        "RepoDigests": [
+            "python@sha256:0293f851d58c726748c9f5d7dca65528ac2d38887b18a48e5689f6c59ef77ea9"
+        ],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2025-02-04T23:51:20Z",
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+                "PYTHON_VERSION=3.13.2",
+                "PYTHON_SHA256=d984bcc57cd67caab26f7def42e523b1c015bbc5dc07836cf4f0b63fa159eb56"
+            ],
+            "Cmd": [
+                "python3"
+            ],
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 1018330321,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/7a6351f59b0a815408e2bc0656e32b434cfe637e0ae8c7e70b4427655305c539/diff:/var/lib/docker/overlay2/5803394f4b9bfcc420f68c598a8bc3081461219ba02a5ed25e47eb3d09b4a9d2/diff:/var/lib/docker/overlay2/43a1ffb495d5333b5a9d7b4a08bd591026aebd1601c2bac5367a2c04e9f0abd2/diff:/var/lib/docker/overlay2/84c1571f461f00088afbd5ad33c4ea5bf62d786a2b88b5830bcb81754c1b15de/diff:/var/lib/docker/overlay2/5e79a05d0e50d03c13fd3059779c8ae373ee28421984fd0a6f51c49def216aa2/diff:/var/lib/docker/overlay2/2e5574dc1547a7f520db17c48116828f4481ae4febb83ad7ff391e4b24dff387/diff",
+                "MergedDir": "/var/lib/docker/overlay2/4d39be4cfe3ecf1ede5c4d7e5783db6aecb9572dab56c76340e930e70dcafadf/merged",
+                "UpperDir": "/var/lib/docker/overlay2/4d39be4cfe3ecf1ede5c4d7e5783db6aecb9572dab56c76340e930e70dcafadf/diff",
+                "WorkDir": "/var/lib/docker/overlay2/4d39be4cfe3ecf1ede5c4d7e5783db6aecb9572dab56c76340e930e70dcafadf/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:f7f2b929d8a55112a2db1bc16fb8731045c9572b84d6dfbbdbd5dc6dd2bd9fe4",
+                "sha256:7f0053786e6e2411ce577e795ef6c278601de3faa0817c071801b11a3f83fd0d",
+                "sha256:b2bcbd8ebb2be9869ca3198b4c521f18b612b4287ee4b705678d7b85383b71af",
+                "sha256:6c7c1b88da61a2ad4efd3cb93b6e31b0937d3f4121050a9d1c4ddd00485c7c68",
+                "sha256:1edb1278bafc700e1e6a9a8fe34a073f4cd75167e1d6ffa83f707a3e656a6c2a",
+                "sha256:68758163bd32241599fcf79a5f274e6f07d53179ce0d947c7b68ace5d0c8d0e2",
+                "sha256:fb989aacf7da4792ea02ee99e0f588d0416e66deb6128b706bb34bd3b7f3e410"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]
+
+# Microsoft Python 3.13
+
+[
+    {
+        "Id": "sha256:c6cc163c04e01eb3853881447cd8790b2c4785f3c1d8b2ce77bfed28bde2aea8",
+        "RepoTags": [
+            "mcr.microsoft.com/devcontainers/python:dev-3.13"
+        ],
+        "RepoDigests": [
+            "mcr.microsoft.com/devcontainers/python@sha256:596698e5f5723d0ffd38688f059e2d8ee63ce6f211699d73d851b483db694894"
+        ],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2025-07-07T15:27:28.762698336Z",
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "root",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/python/current/bin:/usr/local/py-utils/bin:/usr/local/jupyter:/usr/local/share/nvm/current/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+                "PYTHON_VERSION=3.13.5",
+                "PYTHON_SHA256=93e583f243454e6e9e4588ca2c2662206ad961659863277afcdb96801647d640",
+                "NVM_DIR=/usr/local/share/nvm",
+                "NVM_SYMLINK_CURRENT=true",
+                "PYTHON_PATH=/usr/local/python/current",
+                "PIPX_HOME=/usr/local/py-utils",
+                "PIPX_BIN_DIR=/usr/local/py-utils/bin"
+            ],
+            "Cmd": [
+                "python3"
+            ],
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {
+                "dev.containers.id": "python",
+                "dev.containers.release": "main",
+                "dev.containers.source": "https://github.com/devcontainers/images",
+                "dev.containers.timestamp": "Mon, 07 Jul 2025 15:23:21 GMT",
+                "dev.containers.variant": "3.13-bookworm",
+                "devcontainer.metadata": "[ {\"id\":\"ghcr.io/devcontainers/features/common-utils:2\"}, {\"id\":\"ghcr.io/devcontainers/features/git:1\",\"customizations\":{\"vscode\":{\"settings\":{\"github.copilot.chat.codeGeneration.instructions\":[{\"text\":\"This dev container includes an up-to-date version of Git, built from source as needed, pre-installed and available on the `PATH`.\"}]}}}}, {\"id\":\"ghcr.io/devcontainers/features/node:1\",\"customizations\":{\"vscode\":{\"extensions\":[\"dbaeumer.vscode-eslint\"],\"settings\":{\"github.copilot.chat.codeGeneration.instructions\":[{\"text\":\"This dev container includes `node`, `npm` and `eslint` pre-installed and available on the `PATH` for Node.js and JavaScript development.\"}]}}}}, {\"id\":\"ghcr.io/devcontainers/features/python:1\",\"customizations\":{\"vscode\":{\"extensions\":[\"ms-python.python\",\"ms-python.vscode-pylance\",\"ms-python.autopep8\"],\"settings\":{\"github.copilot.chat.codeGeneration.instructions\":[{\"text\":\"This dev container includes `python3` and `pip3` pre-installed and available on the `PATH`, along with the Python language extensions for Python development.\"}],\"python.defaultInterpreterPath\":\"/usr/local/python/current/bin/python\",\"[python]\":{\"editor.defaultFormatter\":\"ms-python.autopep8\"}}}}}, {\"customizations\":{\"vscode\":{\"settings\":{\"python.defaultInterpreterPath\":\"/usr/local/bin/python\"}}},\"remoteUser\":\"vscode\"} ]",
+                "version": "dev"
+            }
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 1511590217,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/abd0855cc5f03a6352c077342df255b4f87113615cdb6607aa41324edc1643d2/diff:/var/lib/docker/overlay2/656f6d16f5dbb1ceb2decde8a7cd6eb8f6170775c5f0837308171c57d4551d92/diff:/var/lib/docker/overlay2/180acac6eae5d78b34dd34bf3deb4f6db480cd4a307b77afb495acdddb02ee23/diff:/var/lib/docker/overlay2/afe65eb04d25e96df95c0db54b1f735a6183eb2740c6222ce6a1ab83c8790c13/diff:/var/lib/docker/overlay2/7b46c5efb203a36e4c0471f049ad805e4b0be2b2e61f2b3ab59b5baaab1fa2cc/diff:/var/lib/docker/overlay2/71ba7675c07a34a50536f6ef37a4dcb22b2836381064a896efb40ffb6e88cc92/diff:/var/lib/docker/overlay2/3e6bf2d2c019f850e3ec67f73ae7425f615a6b8039409a4a821a2dc2a1171b2b/diff:/var/lib/docker/overlay2/aa7a1bd7b0736fa4edb5295aef627236ddda17562691882c83c55242e11349e3/diff:/var/lib/docker/overlay2/d622cd21abdb09c110fe7c63eec39481cb4ef81d21c6c1a1a3ee49494b6ec9d3/diff:/var/lib/docker/overlay2/9c73191f11228a9d8fb27014f43ec41e9180177ff9c3b6a11d634baf0d266c33/diff:/var/lib/docker/overlay2/0c51c9d9b47292d81bbf1ea0fe16ece8d240c022282bde6ac4ad51a87cbdd76b/diff:/var/lib/docker/overlay2/30ec8ea37d31127ee8b5ebadd25cca71061f923a233e3fa2e74284e1e4779bc7/diff:/var/lib/docker/overlay2/c87da46cf3ee72ce637205761f836f81b1ddea4cd1dbf897c70f4d3b9043b3b3/diff:/var/lib/docker/overlay2/83b25baa71804e05787f3d9d8cc9655b1c0fa75eba4b8627ae1c87111a327ea1/diff:/var/lib/docker/overlay2/edcf1a8b7662d7964227098a9680c6ab26ba2a5d255c479bb223924da2e84bc7/diff:/var/lib/docker/overlay2/7afb00854fa93f97dcafcdfac9fc8ef0bb62912f516b7f6e2121ff063d0924b9/diff",
+                "MergedDir": "/var/lib/docker/overlay2/cb86faaf8f83c85c9ffb9c78a1c3c39d5fad435d0a3da0ab468be64d3516ea08/merged",
+                "UpperDir": "/var/lib/docker/overlay2/cb86faaf8f83c85c9ffb9c78a1c3c39d5fad435d0a3da0ab468be64d3516ea08/diff",
+                "WorkDir": "/var/lib/docker/overlay2/cb86faaf8f83c85c9ffb9c78a1c3c39d5fad435d0a3da0ab468be64d3516ea08/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:385eb556134e17ef23cfd59b33526dddab1776f743b3713ff9a08a484ece4aaa",
+                "sha256:c878d283e64a0ef7ddb31614dd7b9aa8ea15e80da6489496121a81cfa594a979",
+                "sha256:8bc405ffff1cd23ede9fdfd9feda89adff154ee83ca967aae653c1e2e6f68011",
+                "sha256:0a3d3e4103433f9d9d5bea08e0211b379fc962ba86d222b7c7c587317380216c",
+                "sha256:785902786fbcbb55f45dfa58ae66e72bb401baefcb1c074858dcd552e70ca0cd",
+                "sha256:1d482936d216b602047587e5cf1bda03cbcdfe5401f16808c256196883d69b7f",
+                "sha256:690349e3ad0a19efb6a47fbfea0322770399b71b7dba7d7238d5bdbd05a2e277",
+                "sha256:640832abd880f63d7c08acf57252d22945dbb404c1e9a95740ed1d02b74b8407",
+                "sha256:b3ddfb3e0e5fbd63adb184381c0b30e3d27a563b1fdb7ed9a240b38a8d9c48c1",
+                "sha256:7593133623f60570bd0ae68d59bd3bb671e48ad03786d6586624643811b38a97",
+                "sha256:2b095795311a4c2b49fc61d50aeaf5aeca64abc7deb0ddb55342ae9f9cb53f8d",
+                "sha256:064cdb7fb5380a4c2590da35b9859335859a664b1e395bb1247138b5ea47a299",
+                "sha256:4c19bca7b5a12a91201937046149332be72c496166e4f6f25d299c84bf706f68",
+                "sha256:24377a71f1959453f9cca7f9dbfa07766a105ddba8466f3e431b5f399b8f1b5d",
+                "sha256:73a9d09f16de2c0ffe0dc3c318877477605410de95087707148f0448d81865a4",
+                "sha256:fd19087a2bdeb3fa8064a6127398c3c40f7099cd61ae33d0712a60304e812309",
+                "sha256:d1e2cd254a737aa34e7dd503df77d3446906fa8b86faaf87d4f0ef3ae157f153"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]
