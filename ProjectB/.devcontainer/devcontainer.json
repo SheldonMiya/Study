@@ -1,0 +1,8 @@
+{
+  "name": "Python DevContainer (Compose)",
+  "dockerComposeFile": [
+    "../docker-compose.yml"
+  ],
+  "service": "web",
+  "workspaceFolder": "/workspace"
+}
