@@ -52,7 +52,6 @@
 - 8149	27.580852	192.168.0.6	150.171.74.16	TLSv1.3	438	Client Hello (SNI=github.gallery.vsassets.io)
 - 24119	29.729866	192.168.0.6	20.27.177.116	TLSv1.2	1953	Client Hello (SNI=api.github.com)
 - 24361	38.122338	192.168.0.6	185.199.109.133	TLSv1.3	437	Client Hello (SNI=raw.githubusercontent.com)
-- 24700	40.973562	192.168.0.6	111.170.25.35	TLSv1.3	1886	Client Hello (SNI=github.gallerycdn.azure.cn)
 
 ---
  ■ Add Dev Container Configuration Files 実行時に確認されたドメイン
