@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  sample_test_service:
+    image: alpine:3.18
+    container_name: sample_test_service
+    command: sh -c "while true; do sleep 3600; done"
+    tty: true
+    volumes:
+      - ${LOCAL_WORKSPACE_FOLDER}/frontend:/workspace/frontend
+      - ${LOCAL_WORKSPACE_FOLDER}/backend:/workspace/backend
