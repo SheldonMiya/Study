@@ -15,7 +15,7 @@ docker compose -p project2 -f /workspace/docker-compose.yml up -d
 docker ps
 
 # マウント確認：sample_test_service に入って /workspace を見る
-docker exec -it sample_test_service sh
+docker exec -it sample_test_service_01 sh
 ls -la /workspace
 ls -la /workspace/frontend
 ls -la /workspace/backend
@@ -28,3 +28,6 @@ docker compose -p project2 -f /workspace/docker-compose.yml down
 ```
 
 注意: Windows 上の Docker Desktop を使う場合、`LOCAL_WORKSPACE_FOLDER` はホストのパスになるため、コンテナ内で`docker compose` を実行すると、ホストパスがマウント先として利用されます。パスの形式に注意してください。
+asd
+
+![alt text](image.png)

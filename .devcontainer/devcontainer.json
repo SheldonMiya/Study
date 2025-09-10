@@ -1,7 +1,6 @@
 {
   "name": "DevContainer",
   "dockerComposeFile": [
-    "../docker-compose.yml",
     "../docker-compose.devcontainer.yml"
   ],
   "service": "devcontainer",
@@ -14,7 +13,6 @@
       },
       "extensions": [
         // VSCode拡張機能
-
       ]
     }
   },
