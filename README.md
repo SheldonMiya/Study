@@ -28,6 +28,4 @@ docker compose -p project2 -f /workspace/docker-compose.yml down
 ```
 
 注意: Windows 上の Docker Desktop を使う場合、`LOCAL_WORKSPACE_FOLDER` はホストのパスになるため、コンテナ内で`docker compose` を実行すると、ホストパスがマウント先として利用されます。パスの形式に注意してください。
-asd
-
 ![alt text](image.png)
