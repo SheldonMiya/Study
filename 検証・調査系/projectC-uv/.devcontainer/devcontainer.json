@@ -1,0 +1,25 @@
+{
+  "name": "projectC-uv",
+  "dockerFile": "Dockerfile",
+  "context": "..",
+  "remoteUser": "root",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.debugpy"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/bin/python3",
+        "python.linting.enabled": true,
+        "python.linting.pylintEnabled": true,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.python"
+      }
+    }
+  },
+  "forwardPorts": [],
+  "postCreateCommand": "uv --version && python3 --version"
+}
